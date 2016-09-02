@@ -10,7 +10,7 @@ package sort;
 
 import java.util.Arrays;
 
-public class MultiKeyRadixSort {
+public class RadixSort {
 
     public static void main(String[] args) {
         int[] data = new int[] { 1100, 192, 221, 12, 23, 222, 111, 134, 178, 8829, 1, 189 };

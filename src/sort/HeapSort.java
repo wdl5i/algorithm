@@ -33,13 +33,13 @@ public class HeapSort {
 
     public static void heapSort(int[] data) {
         for (int i = 0; i < data.length - 1; i++) {
-            createMaxdHeap(data, data.length - 1 - i);
+            createMaxHeap(data, data.length - 1 - i);
             swap(data, 0, data.length - 1 - i);
             print(data);
         }
     }
 
-    public static void createMaxdHeap(int[] data, int lastIndex) {
+    public static void createMaxHeap(int[] data, int lastIndex) {
         for (int i = (lastIndex - 1) / 2; i >= 0; i--) {
             // 保存当前正在判断的节点
             int selectedIndex = i;

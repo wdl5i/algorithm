@@ -18,6 +18,7 @@ public class BubbleSort {
         int num[] = Util.randomInts(20);
         new BubbleSort().bubbleSort(num);
         Util.printInts(num);
+        System.out.println("tag test!");
     }
 
     public void bubbleSort(int array[]) {
